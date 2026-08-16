@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int X, Y, temp;
+    int sum = 0;
+
+    scanf("%d", &X);
+    scanf("%d", &Y);
+    if (X > Y) {
+        temp = X; X = Y; Y = temp;
+    }
+    for (int i = X; i <= Y; i++) {
+        if (i % 13 != 0) {
+            sum += i;
+        }
+    }
+
+    printf("%d\n", sum);
+    return 0;
+}
