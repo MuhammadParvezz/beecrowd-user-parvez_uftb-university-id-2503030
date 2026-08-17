@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1786937253 source:e:\github\beecrowd-1146\main.c
+	<stdio.h>
+	<stdlib.h>
+
